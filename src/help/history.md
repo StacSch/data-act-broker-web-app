@@ -7,9 +7,7 @@ In this version of the Broker, we are using MAX to manage user accounts, we upda
   - [Sign In Using MAX](#/help?section=logMAX)
   - [Processing of Validation Rules](#/help?section=processingRules1031)
   - [Summary Table](#/help?section=summaryTable)
-  - [Browser Requirements & Known Issues](#/help?section=browser)
-  - [Accessibility Statement](#/help?section=accessibilityStatement)
-
+ 
 ##### Sign In Using MAX{section=logMAX}
 
 If you are seeing this in What's New in This Release, you already know about the MAX.gov sign in that was implemented with this release. If your coworkers are having trouble signing in, they should contact their agency administrator for MAX. If the agency doesn't have a MAX administrator, email DATAPMO@fiscal.treasury.gov
