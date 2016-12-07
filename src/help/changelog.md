@@ -1,32 +1,27 @@
-#### November 23, 2016
-On September 30, 2016, we released the full version of the DATA Act Broker that contained everything agencies need to test the data validation and submission process. Now we are making improvements to the Broker and responding to issues discovered through greater agency use.
+#### December 21, 2016
+On November 30, 2016, we released improvements to the Broker. Now we are continuing to improve the Broker, updating DAIMS, and responding to issues discovered through testing and agency use.
 
-In this version of the Broker, we are using MAX to manage user account permissions, we updated how the Broker processes several rules and reports errors, added a FAQ for TransactionObligatedAmount, and provided the information on the Submission Dashboard in two tables, one for in progress, and one for completed and certified.
+In this version of the Broker, we updated how the Broker processes several rules, 
 
-  - [Sign In Using MAX](#/help?section=logMAX)
   - [Processing of Validation Rules](#/help?section=processingRules1123)
-  - [New FAQ document for TransactionObligatedAmount](#/help?section=TOAfaq)
-  - [Submission Dashboard display](#/help?section=SubmissionDashboard)
+  - [Item 2](#/help?section=Item2)
+  - [Item 3](#/help?section=Item3)
   - [Browser Requirements & Known Issues](#/help?section=browser)
   - [Accessibility Statement](#/help?section=accessibilityStatement)
-
-##### Sign In Using MAX{section=logMAX}
-
-Agency Admins have the ability to set up read, write, and submitter permissions for MAX groups. Broker enforces read only, write only, and submitter permissions. If your coworkers are having trouble signing in, they should contact their agency administrator for MAX. If the agency doesn't have a MAX administrator, email DATAPMO@fiscal.treasury.gov.
 
 ##### Processing of Validation Rules{section=processingRules1123}
 
 We updated how the Broker processes some rules.
 
- * A33: Implementation of rule A33 has been updated.
- * C20 & C21: The way Broker processes rules C20 and C21 was improved.
- * An error message will display if a file is submitted with an unreadable header row.
+ * A33: To address reporting entity and exclude Financing Accounts from required TAS. Each TAS reported to GTAS for SF 133 should be reported in File A, and vice versa, for the same reporting period, with the exception of Financing Accounts.
+ * B5: To reflect that the CPE amount should be activity.
+ * B11: Invalid Object Class will prompt critical error; '000' can be provided but will give warning. Must be a valid 3-digit object class as defined in OMB Circular A-11 Section 83.6, or a 4-digit code which includes a 1-digit prefix that distinguishes direct, reimbursable, and allocation obligations. Do not include decimal points when reporting in the Schema. For amounts that cannot yet be allocated to a valid object class, input 000, although note that this will prompt a warning.
  
-##### TransactionObligatedAmount FAQ{section=TOAfaq}
+##### Item 2 FAQ{section=Item2}
 
 The TransactionObligatedAmount FAQ document has been added to the [Resources](/#/resources) page in Help.
 
-##### Submission Dashboard{section=SubmissionDashboard}
+##### Item 3{section=Item3}
 
 When a user clicks the Submission Dashboard, submissions are displayed in two tables, one for In Progress and one for Completed and Certified.
 
